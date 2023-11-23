@@ -1,0 +1,51 @@
+*{
+margin:0px;
+padding:0px;
+font-family:Roboto Slab,Open Sans,Roboto,Helvetica;
+list-style:none;
+
+}
+
+
+
+body{background-color:AliceBlue; 
+background-image: url( '../imgs/autor/fondo.png'); margin:auto; background-size:cover; background-attachment:fixed;
+
+
+}
+
+h1{
+	text-align:center;
+	color:#000;
+	text-shadow:2px 2px white;
+	
+	
+}
+
+
+.flexin{
+	display:flex; flex-direction:row;
+	justify-content:space-between;
+	
+	
+}
+
+
+
+P {
+	Color:#333;
+text-align:center;
+	font-size:17px;
+}
+
+
+a {color:black;Font-size:17px;}
+
+.negro{color:BLACK; font-family:Haettenschweiler; font-size:2.5rem;}
+
+.negro2{color:BLACK; font-family:Haettenschweiler; font-size:2rem;}
+
+.imgs{
+ display:flex; flex-direction:row; justify-content:center;	
+	
+}

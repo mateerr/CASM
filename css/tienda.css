@@ -1,0 +1,100 @@
+*{padding:0px; margin:0px;
+font-family:Roboto Slab,Open Sans,Roboto,Helvetica;
+list-style:none;
+}
+
+body{ width:750px;  background-image: url('../imgs/casmgen/fondocasmnew.jpg'); margin:auto; background-size:cover; background-attachment:fixed;
+display:flex; flex-direction:column;
+}
+
+header {height:120px; width:750px; }
+
+nav{height:50px; width:745px; background-color:green;  border:solid white 2px; 
+	display:flex; flex-direction:row;
+}
+
+
+
+}
+
+
+.imagen{
+	float:left;
+	display:flex;
+	
+}
+
+
+
+nav ul{
+	float:center;
+	justify-content:space-between; display:flex;
+	margin:auto;
+	margin-top:3px;
+	
+}
+
+nav ul li{
+display:inline-block;	
+	line-height:40px;
+	margin:0 5px;
+margin-left:50px;
+	
+}
+
+nav ul li a {
+	color:azure;
+	font-size:18px;
+	padding: 3px;
+	border-radius:3px;
+	text-decoration:none;
+	border-right:groove white 1px; 	border-left:groove white 1px;
+
+}
+
+ li a:hover{
+	background-color:white;
+	transition: 1s;
+	color:green;
+	
+}
+
+.camisetas{
+	
+Border:ridge;
+border-radius:5px;
+float:left;
+text-align:center;
+color:Azure;
+font-size:15px;
+
+
+
+
+}
+
+.zoom:hover{
+	transform: scale(110%);
+	
+	
+}
+.zoom{
+	font-weight: bold; transition: 0.5s;
+	
+	
+}
+
+.productos{
+margin-left:50px;
+ display:flex; flex-direction:Row;
+ justify-content:space-between;
+}
+
+.promo{
+	text-align:center;
+font-family:Helvetica;
+	color:white; text-shadow:2px 2px green;
+	letter-spacing:1px;
+	font-size:20px;
+	
+}

@@ -1,0 +1,184 @@
+
+*{
+padding:0px;
+margin:0px;
+font-family:Roboto Slab,Helvetica;
+text-decoration:none;
+}
+
+
+.logo{
+float:left;
+display:flex;
+
+}
+
+
+body{
+	background-image: url( '../imgs/casmgen/fondocasmnew.jpg'); margin:auto; background-size:cover; background-attachment:fixed;
+	
+}
+
+.--h1{
+font-family:Helvetica;
+	color:white; text-shadow:2px 2px green;
+	letter-spacing:1px;
+	display:flex;
+	margin-right:100px;
+	font-size:35px;
+}
+
+figure{
+	padding:5px;
+	margin-top:10px;
+	margin-right:15px;
+	display:inline-block;
+}
+
+P{
+	text-align:center;
+	font-family:Helvetica;
+	color: white;
+	font-size:15px;
+	text-indent:5px;
+}
+
+P a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+P a:hover{
+	color:green;
+	text-decoration:none;
+	background-color:white;
+	transition:2s;
+	border: inset; border-radius:5px;
+	
+}
+
+nav{ margin-top:5px; margin-right:10px; display:flex; float:right;  
+box-shadow:rgba(22,20,20, 0.2) 0px 8px 24px;
+}
+
+nav ul{
+
+	justify-content:space-around; display:flex;
+	margin-top:3px;
+	
+}
+
+nav ul li{
+display:inline-block;	
+	line-height:40px;
+	margin:0 5px;
+
+	
+}
+
+nav ul li a {
+	color:azure; font-size:18px; padding: 3px; border-radius:3px; text-decoration:none;
+}
+
+ li a:hover{
+	background-color:WHITE;
+	color:green;
+	transition: 1s;
+	
+	
+}
+
+.--img {display: flex; flex-direction:row; justify-content:center;
+
+margin-top:150px;
+box-shadow:rgba(22,20,20, 0.2) 0px 8px 24px;
+} 
+.--orden {padding:0 60px 20px; 
+border:solid 1px white;
+border-radius:10px;
+padding:10px;
+
+}  
+
+.--orden:hover{
+transition:2s;
+background-color:green;
+border-radius:10px;
+	
+}
+
+
+.titulo{
+justify-content:center;
+font-family:Helvetica;
+	color:white; text-shadow:3px 3px green;
+	letter-spacing:1px;
+	display:inline-block; flex-direction:row;
+	font-size:50px; margin-left:100px;
+
+}
+
+.articulos{
+display:flex; flex-direction:column;
+border:solid 0.5px white;	
+background-color:#333;
+float:right;
+	height:450px;
+	margin-top:50px; text-align:center; box-shadow:rgba(0,0,0, 0.2) 0px 8px 24px;
+}
+.articulos strong{
+	color:#13669E;
+	
+}
+
+
+.articulos2{
+display:flex; flex-direction:column;
+border:solid 0.5px white;	
+background-color:#333;
+float:left;
+	height:450px;
+	margin-top:50px; text-align:center; box-shadow:rgba(0,0,0, 0.2) 0px 8px 24px;
+}
+.articulos2 strong{
+	color:#13669E;
+	
+}
+
+
+.galeria {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 180px;
+  
+}
+
+.galeria:hover {
+  border: 1px solid #999;
+}
+
+.galeria img {
+  width: 100%;
+  height:70%;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+color:white;
+}
+.centrar{
+	display:flex;
+	flex-direction:row;
+margin-left:300px;
+	
+	
+}
+.text{
+font-family:Helvetica;
+	color:white; text-shadow:2px 2px green;
+font-size:45px; margin-right:-12px;
+float:center;	letter-spacing:1px;
+}

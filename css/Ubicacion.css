@@ -1,0 +1,84 @@
+*{
+padding:0px;
+margin:0px;
+font-family:Roboto, Roboto Slab, Helvetica;
+}
+
+body{
+	background-image: url( '../imgs/casmgen/fondocasmnew.jpg'); margin:auto; background-size:cover; background-attachment:fixed;
+	
+}
+
+h1{
+text-align:center;
+font-family:Helvetica;
+	color:white; text-shadow:2px 2px green;
+	letter-spacing:1px;
+}
+
+figure{
+	text-align:center;
+	padding:5px;
+	margin-top:10px;
+	margin-right:15px;
+box-shadow:rgba(22,20,20, 0.2) 0px 8px 24px;
+}
+P{
+	
+	font-family:Helvetica;
+	color: white;
+	font-size:15px;
+	text-indent:5px;
+}
+
+P a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+P a:hover{
+	color:green;
+	text-decoration:none;
+	background-color:white;
+	transition:2s;
+	border: inset; border-radius:5px;
+	
+}
+
+nav ul{
+	float:center;
+	justify-content:space-around; display:flex;
+	margin:auto;
+	margin-top:3px;
+}
+
+nav ul li{
+display:inline-block;	
+	line-height:40px;
+	margin:0 5px;
+
+	
+}
+
+nav ul li a {
+	color:azure; font-size:18px; padding: 3px; border-radius:3px; text-decoration:none; border-right:groove white 1px; 	border-left:groove white 1px;
+}
+
+ li a:hover{
+	background-color:WHITE;
+	color:green;
+	transition: 1s;
+	
+	
+}
+
+nav{ background-color:green; margin-top:5px; border-top:solid 1px white;  box-shadow:rgba(22,20,20, 0.2) 0px 8px 24px; }
+	
+
+
+
+
+
+
+
